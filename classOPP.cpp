@@ -26,6 +26,8 @@ public :
   cout<<"\nDefault constructor\n\n";
   }
 
+  // in above we can see two constructor one is parameterized and another is default now , we can say it's constructor overloading
+
 
     //function create for display
     void display(){
