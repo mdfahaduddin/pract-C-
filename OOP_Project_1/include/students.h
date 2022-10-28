@@ -4,7 +4,8 @@
 class students
 {
     public:
-        students();
+        students(); //constructor
+        ~students(); //destructor
         void display();
 
     protected:
