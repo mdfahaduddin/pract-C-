@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1666935320 source:g:\usa c++\oop_project_1\src\students.cpp
+	"students.h"
+	<iostream>
+
+1666935321 g:\usa c++\oop_project_1\include\students.h
+
+1666935166 source:g:\usa c++\oop_project_1\main.cpp
+	<iostream>
+	"students.h"
+
