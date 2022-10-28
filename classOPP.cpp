@@ -22,6 +22,10 @@ public :
     cgpa = c;
   }
 
+  students(){
+  cout<<"\nDefault constructor\n\n";
+  }
+
 
     //function create for display
     void display(){
@@ -33,7 +37,7 @@ public :
 };
 
 int main(){
-    students fahad(2110317006,"01609671003",3.99),abir(2110318006,"016000000",4.00); //create object fahad
+    students fahad(2110317006,"01609671003",3.99),abir(2110318006,"016000000",4.00),rubel; //create object fahad
 
    // fahad.input(2110317006,"01609671003",3.99);//call input function
     fahad.display();
