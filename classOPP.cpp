@@ -8,6 +8,13 @@ public :
     string phnNo;
     double cgpa;
 
+    //function create for display
+    void display(){
+    cout<<"ID : "<<id<<endl;
+    cout<<"Phone Number : "<<phnNo<<endl;
+    cout<<"CGPA : "<<cgpa<<endl;
+    }
+
 };
 
 int main(){
@@ -15,16 +22,12 @@ int main(){
     fahad.id = 2110317006;
     fahad.phnNo = "01609671003";
     fahad.cgpa = 3.99;
+    fahad.display();
 
     abir.id = 2110318006;
     abir.phnNo = "0160000000";
     abir.cgpa = 4;
+    fahad.display();
 
-   cout<<"ID : "<<fahad.id<<endl;
-   cout<<"Phone Number : "<<fahad.phnNo<<endl;
-   cout<<"CGPA : "<<fahad.cgpa<<endl;
 
-   cout<<"ID : "<<abir.id<<endl;
-   cout<<"Phone Number : "<<abir.phnNo<<endl;
-   cout<<"CGPA : "<<abir.cgpa<<endl;
 }
